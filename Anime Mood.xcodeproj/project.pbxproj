@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03814F9B1E3355190059C77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03814F9A1E3355190059C77F /* AppDelegate.swift */; };
+		03814F9D1E3355190059C77F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03814F9C1E3355190059C77F /* ViewController.swift */; };
+		03814FA01E3355190059C77F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03814F9E1E3355190059C77F /* Main.storyboard */; };
+		03814FA21E3355190059C77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03814FA11E3355190059C77F /* Assets.xcassets */; };
+		03814FA51E3355190059C77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03814FA31E3355190059C77F /* LaunchScreen.storyboard */; };
+		03814FB01E3355190059C77F /* Anime_MoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03814FAF1E3355190059C77F /* Anime_MoodTests.swift */; };
+		03814FBB1E3355190059C77F /* Anime_MoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03814FBA1E3355190059C77F /* Anime_MoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03814FAC1E3355190059C77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03814F8F1E3355190059C77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03814F961E3355190059C77F;
+			remoteInfo = "Anime Mood";
+		};
+		03814FB71E3355190059C77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03814F8F1E3355190059C77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03814F961E3355190059C77F;
+			remoteInfo = "Anime Mood";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03814F971E3355190059C77F /* Anime Mood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime Mood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03814F9A1E3355190059C77F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03814F9C1E3355190059C77F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03814F9F1E3355190059C77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03814FA11E3355190059C77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03814FA41E3355190059C77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03814FA61E3355190059C77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03814FAB1E3355190059C77F /* Anime MoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anime MoodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03814FAF1E3355190059C77F /* Anime_MoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime_MoodTests.swift; sourceTree = "<group>"; };
+		03814FB11E3355190059C77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03814FB61E3355190059C77F /* Anime MoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anime MoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03814FBA1E3355190059C77F /* Anime_MoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime_MoodUITests.swift; sourceTree = "<group>"; };
+		03814FBC1E3355190059C77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03814F941E3355190059C77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03814FA81E3355190059C77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03814FB31E3355190059C77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03814F8E1E3355190059C77F = {
+			isa = PBXGroup;
+			children = (
+				03814F991E3355190059C77F /* Anime Mood */,
+				03814FAE1E3355190059C77F /* Anime MoodTests */,
+				03814FB91E3355190059C77F /* Anime MoodUITests */,
+				03814F981E3355190059C77F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03814F981E3355190059C77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03814F971E3355190059C77F /* Anime Mood.app */,
+				03814FAB1E3355190059C77F /* Anime MoodTests.xctest */,
+				03814FB61E3355190059C77F /* Anime MoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03814F991E3355190059C77F /* Anime Mood */ = {
+			isa = PBXGroup;
+			children = (
+				03814F9A1E3355190059C77F /* AppDelegate.swift */,
+				03814F9C1E3355190059C77F /* ViewController.swift */,
+				03814F9E1E3355190059C77F /* Main.storyboard */,
+				03814FA11E3355190059C77F /* Assets.xcassets */,
+				03814FA31E3355190059C77F /* LaunchScreen.storyboard */,
+				03814FA61E3355190059C77F /* Info.plist */,
+			);
+			path = "Anime Mood";
+			sourceTree = "<group>";
+		};
+		03814FAE1E3355190059C77F /* Anime MoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				03814FAF1E3355190059C77F /* Anime_MoodTests.swift */,
+				03814FB11E3355190059C77F /* Info.plist */,
+			);
+			path = "Anime MoodTests";
+			sourceTree = "<group>";
+		};
+		03814FB91E3355190059C77F /* Anime MoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03814FBA1E3355190059C77F /* Anime_MoodUITests.swift */,
+				03814FBC1E3355190059C77F /* Info.plist */,
+			);
+			path = "Anime MoodUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03814F961E3355190059C77F /* Anime Mood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03814FBF1E3355190059C77F /* Build configuration list for PBXNativeTarget "Anime Mood" */;
+			buildPhases = (
+				03814F931E3355190059C77F /* Sources */,
+				03814F941E3355190059C77F /* Frameworks */,
+				03814F951E3355190059C77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anime Mood";
+			productName = "Anime Mood";
+			productReference = 03814F971E3355190059C77F /* Anime Mood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03814FAA1E3355190059C77F /* Anime MoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03814FC21E3355190059C77F /* Build configuration list for PBXNativeTarget "Anime MoodTests" */;
+			buildPhases = (
+				03814FA71E3355190059C77F /* Sources */,
+				03814FA81E3355190059C77F /* Frameworks */,
+				03814FA91E3355190059C77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03814FAD1E3355190059C77F /* PBXTargetDependency */,
+			);
+			name = "Anime MoodTests";
+			productName = "Anime MoodTests";
+			productReference = 03814FAB1E3355190059C77F /* Anime MoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03814FB51E3355190059C77F /* Anime MoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03814FC51E3355190059C77F /* Build configuration list for PBXNativeTarget "Anime MoodUITests" */;
+			buildPhases = (
+				03814FB21E3355190059C77F /* Sources */,
+				03814FB31E3355190059C77F /* Frameworks */,
+				03814FB41E3355190059C77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03814FB81E3355190059C77F /* PBXTargetDependency */,
+			);
+			name = "Anime MoodUITests";
+			productName = "Anime MoodUITests";
+			productReference = 03814FB61E3355190059C77F /* Anime MoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03814F8F1E3355190059C77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Joshua Barrios";
+				TargetAttributes = {
+					03814F961E3355190059C77F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					03814FAA1E3355190059C77F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03814F961E3355190059C77F;
+					};
+					03814FB51E3355190059C77F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03814F961E3355190059C77F;
+					};
+				};
+			};
+			buildConfigurationList = 03814F921E3355190059C77F /* Build configuration list for PBXProject "Anime Mood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03814F8E1E3355190059C77F;
+			productRefGroup = 03814F981E3355190059C77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03814F961E3355190059C77F /* Anime Mood */,
+				03814FAA1E3355190059C77F /* Anime MoodTests */,
+				03814FB51E3355190059C77F /* Anime MoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03814F951E3355190059C77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03814FA51E3355190059C77F /* LaunchScreen.storyboard in Resources */,
+				03814FA21E3355190059C77F /* Assets.xcassets in Resources */,
+				03814FA01E3355190059C77F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03814FA91E3355190059C77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03814FB41E3355190059C77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03814F931E3355190059C77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03814F9D1E3355190059C77F /* ViewController.swift in Sources */,
+				03814F9B1E3355190059C77F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03814FA71E3355190059C77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03814FB01E3355190059C77F /* Anime_MoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03814FB21E3355190059C77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03814FBB1E3355190059C77F /* Anime_MoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03814FAD1E3355190059C77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03814F961E3355190059C77F /* Anime Mood */;
+			targetProxy = 03814FAC1E3355190059C77F /* PBXContainerItemProxy */;
+		};
+		03814FB81E3355190059C77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03814F961E3355190059C77F /* Anime Mood */;
+			targetProxy = 03814FB71E3355190059C77F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03814F9E1E3355190059C77F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03814F9F1E3355190059C77F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03814FA31E3355190059C77F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03814FA41E3355190059C77F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03814FBD1E3355190059C77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03814FBE1E3355190059C77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03814FC01E3355190059C77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Anime Mood/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshua.Anime-Mood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03814FC11E3355190059C77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Anime Mood/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshua.Anime-Mood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		03814FC31E3355190059C77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Anime MoodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshua.Anime-MoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anime Mood.app/Anime Mood";
+			};
+			name = Debug;
+		};
+		03814FC41E3355190059C77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Anime MoodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshua.Anime-MoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anime Mood.app/Anime Mood";
+			};
+			name = Release;
+		};
+		03814FC61E3355190059C77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Anime MoodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshua.Anime-MoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Anime Mood";
+			};
+			name = Debug;
+		};
+		03814FC71E3355190059C77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Anime MoodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshua.Anime-MoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Anime Mood";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03814F921E3355190059C77F /* Build configuration list for PBXProject "Anime Mood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03814FBD1E3355190059C77F /* Debug */,
+				03814FBE1E3355190059C77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03814FBF1E3355190059C77F /* Build configuration list for PBXNativeTarget "Anime Mood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03814FC01E3355190059C77F /* Debug */,
+				03814FC11E3355190059C77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03814FC21E3355190059C77F /* Build configuration list for PBXNativeTarget "Anime MoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03814FC31E3355190059C77F /* Debug */,
+				03814FC41E3355190059C77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03814FC51E3355190059C77F /* Build configuration list for PBXNativeTarget "Anime MoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03814FC61E3355190059C77F /* Debug */,
+				03814FC71E3355190059C77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03814F8F1E3355190059C77F /* Project object */;
+}
