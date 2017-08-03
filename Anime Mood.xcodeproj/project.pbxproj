@@ -14,6 +14,11 @@
 		03814FA51E3355190059C77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03814FA31E3355190059C77F /* LaunchScreen.storyboard */; };
 		03814FB01E3355190059C77F /* Anime_MoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03814FAF1E3355190059C77F /* Anime_MoodTests.swift */; };
 		03814FBB1E3355190059C77F /* Anime_MoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03814FBA1E3355190059C77F /* Anime_MoodUITests.swift */; };
+		03814FC91E336A510059C77F /* onepiece.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03814FC81E336A510059C77F /* onepiece.jpg */; };
+		107685A91E3416BE0010FFD6 /* view2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107685A81E3416BE0010FFD6 /* view2.swift */; };
+		107685AB1E34189A0010FFD6 /* view3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107685AA1E34189A0010FFD6 /* view3.swift */; };
+		107685B11E341C2C0010FFD6 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107685B01E341C2C0010FFD6 /* ViewController4.swift */; };
+		107685B71E341F200010FFD6 /* view6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107685B61E341F200010FFD6 /* view6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		03814FB61E3355190059C77F /* Anime MoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anime MoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03814FBA1E3355190059C77F /* Anime_MoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime_MoodUITests.swift; sourceTree = "<group>"; };
 		03814FBC1E3355190059C77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03814FC81E336A510059C77F /* onepiece.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = onepiece.jpg; path = "Anime Mood/onepiece.jpg"; sourceTree = "<group>"; };
+		107685A81E3416BE0010FFD6 /* view2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = view2.swift; sourceTree = "<group>"; };
+		107685AA1E34189A0010FFD6 /* view3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = view3.swift; sourceTree = "<group>"; };
+		107685B01E341C2C0010FFD6 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		107685B61E341F200010FFD6 /* view6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = view6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		03814F8E1E3355190059C77F = {
 			isa = PBXGroup;
 			children = (
+				03814FC81E336A510059C77F /* onepiece.jpg */,
 				03814F991E3355190059C77F /* Anime Mood */,
 				03814FAE1E3355190059C77F /* Anime MoodTests */,
 				03814FB91E3355190059C77F /* Anime MoodUITests */,
@@ -99,6 +110,10 @@
 			children = (
 				03814F9A1E3355190059C77F /* AppDelegate.swift */,
 				03814F9C1E3355190059C77F /* ViewController.swift */,
+				107685A81E3416BE0010FFD6 /* view2.swift */,
+				107685AA1E34189A0010FFD6 /* view3.swift */,
+				107685B61E341F200010FFD6 /* view6.swift */,
+				107685B01E341C2C0010FFD6 /* ViewController4.swift */,
 				03814F9E1E3355190059C77F /* Main.storyboard */,
 				03814FA11E3355190059C77F /* Assets.xcassets */,
 				03814FA31E3355190059C77F /* LaunchScreen.storyboard */,
@@ -193,6 +208,7 @@
 				TargetAttributes = {
 					03814F961E3355190059C77F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 26WMQ222P8;
 						ProvisioningStyle = Automatic;
 					};
 					03814FAA1E3355190059C77F = {
@@ -235,6 +251,7 @@
 				03814FA51E3355190059C77F /* LaunchScreen.storyboard in Resources */,
 				03814FA21E3355190059C77F /* Assets.xcassets in Resources */,
 				03814FA01E3355190059C77F /* Main.storyboard in Resources */,
+				03814FC91E336A510059C77F /* onepiece.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				107685AB1E34189A0010FFD6 /* view3.swift in Sources */,
+				107685B71E341F200010FFD6 /* view6.swift in Sources */,
 				03814F9D1E3355190059C77F /* ViewController.swift in Sources */,
 				03814F9B1E3355190059C77F /* AppDelegate.swift in Sources */,
+				107685A91E3416BE0010FFD6 /* view2.swift in Sources */,
+				107685B11E341C2C0010FFD6 /* ViewController4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26WMQ222P8;
 				INFOPLIST_FILE = "Anime Mood/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joshua.Anime-Mood";
@@ -424,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26WMQ222P8;
 				INFOPLIST_FILE = "Anime Mood/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joshua.Anime-Mood";
@@ -505,6 +528,7 @@
 				03814FC11E3355190059C77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03814FC21E3355190059C77F /* Build configuration list for PBXNativeTarget "Anime MoodTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +537,7 @@
 				03814FC41E3355190059C77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03814FC51E3355190059C77F /* Build configuration list for PBXNativeTarget "Anime MoodUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +546,7 @@
 				03814FC71E3355190059C77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

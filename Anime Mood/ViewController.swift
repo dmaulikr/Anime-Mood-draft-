@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func OnePieceKissAnime(_ sender: UIButton) {
+        UIApplication.shared.openURL(URL(string: "http://kissanime.ru/Anime/One-Piece")!)
+        
+        
     }
 
+    @IBAction func Fairytailkissanime(_ sender: UIButton) {
+        UIApplication.shared.openURL(URL(string: "http://kissanime.ru/Anime/Fairy-Tail")!)
+    }
+    
+    @IBAction func Magikissanime(_ sender: UIButton) {
+         UIApplication.shared.openURL(URL(string: "http://kissanime.ru/Anime/Magi")!)
+        
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
